@@ -24,7 +24,7 @@ import sys
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 sys.path.insert(0, os.path.abspath(os.path.join("..", "..")))
-sys.path.insert(0, os.path.abspath("sphinxext"))
+# sys.path.insert(0, os.path.abspath("sphinxext"))
 import pymc3  # isort:skip
 
 # -- General configuration ------------------------------------------------
@@ -47,9 +47,11 @@ extensions = [
     "IPython.sphinxext.ipython_directive",
     "sphinx.ext.autosectionlabel",
     "sphinx.ext.napoleon",
-    "gallery_generator",
+    # "gallery_generator",
     "myst_nb",
     "sphinx_panels",
+    "sphinx_design",
+    "sphinx_copybutton",
 ]
 
 # Don't auto-generate summary for class members.
@@ -146,6 +148,7 @@ intersphinx_mapping = {
     "arviz": ("https://arviz-devs.github.io/arviz/", None),
     "aesara": ("https://aesara.readthedocs.io/en/latest/", None),
     "numpy": ("https://numpy.org/doc/stable/", None),
+    "nb": ("https://pymc-examples.readthedocs.io/en/latest/", None),
 }
 
 
@@ -172,8 +175,14 @@ html_theme_options = {
             "url": "https://twitter.com/pymc_devs",
             "icon": "fab fa-twitter-square",
         },
+        {
+            "name": "Discourse",
+            "url": "https://discourse.pymc.io",
+            "icon": "fab fa-discourse",
+        },
     ],
     "show_prev_next": False,
+    "navbar_align": "left",
     "navbar_start": ["navbar-logo", "navbar-version"],
     "navbar_end": ["search-field.html", "navbar-icon-links.html"],
     "search_bar_text": "Search...",
