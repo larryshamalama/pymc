@@ -110,7 +110,7 @@ exclude_patterns = ["_build", "**.ipynb_checkpoints", "pymc-examples/.github"]
 
 # myst and panels config
 jupyter_execute_notebooks = "off"
-myst_heading_anchors = 3
+myst_heading_anchors = 2
 myst_enable_extensions = [
     "colon_fence",
 ]
@@ -195,7 +195,12 @@ html_context = {
     "github_version": "main",
     "doc_path": "docs/source/",
 }
-html_sidebars = {"learn": [], "**": ["sidebar-nav-bs.html", "sidebar-ethical-ads.html"]}
+# this controls which sidebar sections are available in which pages. [] removes the left sidebar
+html_sidebars = {
+    "learn": [],
+    "installation": [],
+    "**": ["sidebar-nav-bs.html", "sidebar-ethical-ads.html"],
+}
 
 # Add any paths that contain custom themes here, relative to this directory.
 # html_theme_path = []
