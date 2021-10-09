@@ -1,5 +1,7 @@
 # Installation guide
 
+## Installing PyMC 4.0
+
 To install PyMC 4.0, select the operating system where you want to perform the installation.
 
 ::::{tab-set}
