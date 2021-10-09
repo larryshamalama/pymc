@@ -1,13 +1,15 @@
 # Contributing
 
-Explaining how to contribute to PyMC
+PyMC is an open source, collective effort. Find all the ways in which you can help make it better.
 
-## Code related PRs
+## Help develop PyMC
 
-## Documentation
+reviewing? proofreading...
+
+## Help improve the documentation
 
 ## Others
-Issue triaging? reviewing? proofreading...
+Issue triaging
 
 :::{toctree}
 :hidden:

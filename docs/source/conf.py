@@ -4,7 +4,7 @@
 """
 #!/usr/bin/env python3
 #
-# pymc3 documentation build configuration file, created by
+# pymc documentation build configuration file, created by
 # sphinx-quickstart on Sat Dec 26 14:40:23 2015.
 #
 # This file is execfile()d with the current directory set to its
@@ -78,7 +78,7 @@ source_suffix = [".rst", ".md"]
 master_doc = "index"
 
 # General information about the project.
-project = "PyMC3"
+project = "PyMC"
 copyright = "2021, The PyMC Development Team"
 author = "PyMC contributors"
 
@@ -167,7 +167,7 @@ html_theme_options = {
     "icon_links": [
         {
             "name": "GitHub",
-            "url": "https://github.com/pymc-devs/pymc3",
+            "url": "https://github.com/pymc-devs/pymc",
             "icon": "fab fa-github-square",
         },
         {
@@ -191,7 +191,7 @@ html_theme_options = {
 }
 html_context = {
     "github_user": "pymc-devs",
-    "github_repo": "pymc3",
+    "github_repo": "pymc",
     "github_version": "main",
     "doc_path": "docs/source/",
 }
@@ -214,12 +214,12 @@ html_sidebars = {
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-html_logo = "../pymc3_logo.jpg"
+html_logo = "../pymc_logo.jpeg"
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = "../logos/PyMC3.ico"
+html_favicon = "../logos/PyMC.ico"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -287,7 +287,7 @@ html_static_path = ["_static", "nb_tutorials/_images", "nb_examples/_images"]
 # html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "pymc3doc"
+htmlhelp_basename = "pymcdoc"
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -305,7 +305,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [(master_doc, "pymc3.tex", "PyMC3 Documentation", "PyMC developers", "manual")]
+latex_documents = [(master_doc, "pymc.tex", "PyMC Documentation", "PyMC developers", "manual")]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
@@ -332,7 +332,7 @@ latex_documents = [(master_doc, "pymc3.tex", "PyMC3 Documentation", "PyMC develo
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [(master_doc, "pymc3", "pymc3 Documentation", [author], 1)]
+man_pages = [(master_doc, "pymc", "pymc Documentation", [author], 1)]
 
 # If true, show URL addresses after external links.
 # man_show_urls = False
@@ -346,10 +346,10 @@ man_pages = [(master_doc, "pymc3", "pymc3 Documentation", [author], 1)]
 texinfo_documents = [
     (
         master_doc,
-        "pymc3",
-        "pymc3 Documentation",
+        "pymc",
+        "pymc Documentation",
         author,
-        "pymc3",
+        "pymc",
         "One line description of project.",
         "Miscellaneous",
     )

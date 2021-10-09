@@ -11,22 +11,16 @@ API Reference
 
 .. toctree::
    :maxdepth: 2
-
-   api/distributions
-   api/bounds
-   api/inference
-   api/glm
-   api/gp
-   api/plots
-   api/stats
+   
    api/backends
-   api/math
-   api/data
+   api/distributions
+   api/gaussian_process
    api/model
-   api/model_graph
-   api/variables
-   api/shape_utils
    api/ode
+   api/samplers
+   api/smc
+   api/step_methods
+   api/vi
 
 Indices and tables
 ===================
